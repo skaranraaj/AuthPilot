@@ -1,0 +1,150 @@
+{
+  "identity": {
+    "name": "AuthPilot",
+    "persona": "The Clinical Architect",
+    "vibe": "Professional, Trustworthy, Efficient, Administrative, Calm",
+    "emotional_tone": "Organized precision. The user should feel supported and in control, never overwhelmed by data."
+  },
+  "theme": {
+    "mode": "light",
+    "strategy": "Organic & Earthy meets Swiss Structure. High legibility, low eye strain for all-day use.",
+    "radius": "0.5rem"
+  },
+  "typography": {
+    "primary_font": "Manrope",
+    "secondary_font": "Inter",
+    "mono_font": "JetBrains Mono",
+    "scale": {
+      "h1": "text-4xl font-bold tracking-tight text-slate-900",
+      "h2": "text-2xl font-semibold tracking-tight text-slate-900",
+      "h3": "text-xl font-semibold text-slate-800",
+      "body": "text-sm leading-relaxed text-slate-600",
+      "small": "text-xs font-medium text-slate-500",
+      "code": "font-mono text-xs bg-slate-100 px-1 py-0.5 rounded text-slate-700"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#0F766E",
+        "foreground": "#FFFFFF",
+        "hover": "#115E59",
+        "description": "Deep Teal - Represents medical trust and stability."
+      },
+      "secondary": {
+        "DEFAULT": "#F0FDFA",
+        "foreground": "#0F766E",
+        "description": "Pale Teal/Mint - Used for active states and subtle backgrounds."
+      },
+      "accent": {
+        "DEFAULT": "#F59E0B",
+        "foreground": "#FFFFFF",
+        "description": "Amber - For 'Action Required', 'Draft', or 'Attention'."
+      },
+      "destructive": {
+        "DEFAULT": "#EF4444",
+        "foreground": "#FFFFFF",
+        "description": "Red - For 'Denied' status or destructive actions."
+      },
+      "background": "#F8FAFC",
+      "surface": "#FFFFFF",
+      "border": "#E2E8F0",
+      "muted": "#F1F5F9"
+    },
+    "status_colors": {
+      "new_denial": "bg-red-100 text-red-700 border-red-200",
+      "draft_appeal": "bg-amber-100 text-amber-700 border-amber-200",
+      "submitted": "bg-blue-100 text-blue-700 border-blue-200",
+      "won": "bg-emerald-100 text-emerald-700 border-emerald-200",
+      "lost": "bg-slate-100 text-slate-700 border-slate-200"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_gap": "gap-8",
+      "card_padding": "p-6",
+      "dense_padding": "p-4"
+    },
+    "grids": {
+      "dashboard": "grid grid-cols-1 md:grid-cols-12 gap-6",
+      "case_viewer": "grid grid-cols-1 lg:grid-cols-12 gap-4 h-[calc(100vh-4rem)]"
+    },
+    "strategies": {
+      "dashboard_bento": {
+        "summary_cards": "col-span-1 md:col-span-3",
+        "main_chart": "col-span-1 md:col-span-8 lg:col-span-9",
+        "work_queue": "col-span-full"
+      },
+      "case_viewer_quadrant": {
+        "description": "A dense, 4-panel layout for the Case Viewer. Use Resizable panels if possible, otherwise fixed grid.",
+        "panel_1_facts": "lg:col-span-3 bg-white border-r overflow-y-auto",
+        "panel_2_policy": "lg:col-span-3 bg-slate-50 border-r overflow-y-auto",
+        "panel_3_analysis": "lg:col-span-3 bg-white border-r overflow-y-auto",
+        "panel_4_draft": "lg:col-span-3 bg-white overflow-y-auto"
+      }
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm",
+      "secondary": "bg-white text-slate-700 border border-slate-200 hover:bg-slate-50 shadow-sm",
+      "ghost": "hover:bg-slate-100 text-slate-600"
+    },
+    "cards": {
+      "base": "bg-white rounded-lg border border-slate-200 shadow-sm",
+      "hover": "hover:shadow-md transition-shadow duration-200"
+    },
+    "inputs": {
+      "base": "h-10 rounded-md border border-slate-300 bg-white px-3 py-2 text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+    },
+    "badges": {
+      "base": "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-md bg-white/80 border-b border-slate-200/50 sticky top-0 z-50",
+    "gradients": "None. Use solid colors and subtle borders for professional clarity.",
+    "textures": "Subtle noise on dashboard backgrounds if needed, but keep it minimal.",
+    "shadows": "shadow-sm for cards, shadow-lg for dropdowns/modals."
+  },
+  "assets": {
+    "icons": {
+      "library": "lucide-react",
+      "style": "Stroke width 1.5px or 2px. Color: slate-500 for inactive, primary for active."
+    },
+    "images": {
+      "login_background": {
+        "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Modern bright medical office",
+        "usage": "Full screen background for login page with overlay."
+      },
+      "empty_state_dashboard": {
+        "url": "https://images.unsplash.com/photo-1758691461888-b74515208d7a?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Doctor typing at computer",
+        "usage": "Use when work queue is empty."
+      }
+    }
+  },
+  "accessibility": {
+    "contrast": "Ensure text is slate-600 or darker on white backgrounds. Use slate-900 for headings.",
+    "focus_states": "Visible ring-2 ring-primary ring-offset-2 on all interactive elements.",
+    "aria": "All icon-only buttons must have aria-label."
+  },
+  "instructions_to_main_agent": [
+    "Implement the 'Compliance Banner' ('Administrative drafting tool. Not medical advice...') as a persistent top banner or prominent alert in the Case Viewer.",
+    "The Case Viewer is the core complexity. Use a ResizablePanelGroup (from shadcn/ui) if available, or a strict CSS Grid to manage the 4 columns.",
+    "Use the 'Manrope' font for headings to give it a modern, distinct look from standard admin panels.",
+    "Ensure all 'Create Case' forms use the 'Form' component from shadcn with proper validation.",
+    "For the 'Policy Library', use a clean table layout with badge indicators for policy categories.",
+    "Do not use dark mode. Force light mode classes if necessary.",
+    "Use 'sonner' for all toast notifications (success/error)."
+  ],
+  "universal_guidelines": [
+    "Every interaction needs micro-animations (hover, focus, active).",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Never use generic centered layouts for the main app content.",
+    "All interactive elements MUST include data-testid attributes.",
+    "Use Lucide icons for all UI iconography."
+  ]
+}
