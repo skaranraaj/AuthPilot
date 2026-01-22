@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-01-22T23:31:30.179612",
+  "total_tests": 12,
+  "passed_tests": 12,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "test": "Seed Demo Data",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:25.026952"
+    },
+    {
+      "test": "Demo Login",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:25.702520"
+    },
+    {
+      "test": "Get Current User",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:26.155774"
+    },
+    {
+      "test": "Dashboard Stats",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:26.507561"
+    },
+    {
+      "test": "Get Cases",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:26.958655"
+    },
+    {
+      "test": "Get Policies",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:27.415008"
+    },
+    {
+      "test": "Get Templates",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:27.765505"
+    },
+    {
+      "test": "Analytics Summary",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:28.112291"
+    },
+    {
+      "test": "Analytics Denial Types",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:28.561000"
+    },
+    {
+      "test": "Get Specific Case",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:28.909404"
+    },
+    {
+      "test": "Get Case Documents",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:29.676311"
+    },
+    {
+      "test": "Create New Case",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-22T23:31:30.178673"
+    }
+  ]
+}
